@@ -1,0 +1,441 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 440px;
+    height: 956px;
+    margin: 0 auto;
+    background: #eeeeee;
+    overflow: hidden;
+  }
+  .up-rect {
+    position: relative;
+    width: 441px;
+    height: 96px;
+    margin: 61px 0 0 -1px;
+    background: #fdffff;
+    z-index: 1;
+    overflow: visible auto;
+  }
+  .flex-row-dd {
+    position: relative;
+    width: 304px;
+    height: 31px;
+    margin: 34px 0 0 72px;
+    z-index: 11;
+  }
+  .transport {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 31px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Jaro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .other {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 25px;
+    top: 0;
+    left: 236px;
+    color: #808080;
+    font-family: Jaro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .yellow-rect {
+    position: relative;
+    width: 234px;
+    height: 2px;
+    margin: 30px 0 0 1px;
+    background: #ffd700;
+    z-index: 9;
+  }
+  .today-rect {
+    position: relative;
+    width: 110px;
+    height: 31px;
+    margin: 28px 0 0 179px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 12;
+    border-radius: 13px;
+  }
+  .segodnya {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 17px;
+    top: 7px;
+    left: 27px;
+    color: #808080;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .main-rect {
+    position: relative;
+    width: 389px;
+    height: 211px;
+    margin: 62px 0 0 22px;
+    background: #ffffff;
+    z-index: 2;
+    border-radius: 21px;
+  }
+  .onay-left {
+    position: absolute;
+    width: 50px;
+    height: 211px;
+    top: 1px;
+    left: 0;
+    background: url(./assets/images/3352e6153dc08e104ce17c89ae6f1738038d361e.png)
+      no-repeat center;
+    background-size: cover;
+    opacity: 0.96;
+    z-index: 25;
+    border-radius: 21px 2px 2px 21px;
+  }
+  .avtobus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 143px;
+    height: 40px;
+    top: 9px;
+    left: 69px;
+    color: #000000;
+    font-family: Assistant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.16px;
+    text-align: left;
+    z-index: 14;
+  }
+  .almaty-electronic-ticket {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 40px;
+    left: 69px;
+    color: #4b4a4a;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .ey-button {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    top: 69px;
+    left: 260px;
+    cursor: pointer;
+    color: #808080;
+    font-family: Alexandria, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    z-index: 22;
+  }
+  .first-code-rect {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    top: 71px;
+    left: 259px;
+    background: #eeeeee;
+    z-index: 21;
+    border-radius: 6px;
+  }
+  .span-118 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 71px;
+    left: 224px;
+    color: #000000;
+    font-family: Alexandria, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .span-marshrut {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 73px;
+    left: 69px;
+    color: #4b4949;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .onaybus-div {
+    position: absolute;
+    width: 29px;
+    height: 18px;
+    top: 73px;
+    left: 190px;
+    background: url(./assets/images/f8225a7a42dbb31b7ca818c445d746b180bda2af.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;
+  }
+  .span-date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 106px;
+    left: 192px;
+    color: #000000;
+    font-family: Alexandria, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .time {
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    top: 106px;
+    left: 69px;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  .time-1 {
+    position: relative;
+    color: #4b4a4a;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  .time-2 {
+    position: relative;
+    color: #000000;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  .price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 135px;
+    left: 192px;
+    color: #000000;
+    font-family: Alexandria, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .price-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 139px;
+    left: 69px;
+    color: #4b4a4a;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+  }
+  .vsdgybf {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 171px;
+    left: 190px;
+    color: #000000;
+    font-family: Alexandria, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 23;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .code-verification {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 20px;
+    top: 172px;
+    left: 69px;
+    color: #4b4a4a;
+    font-family: Assistant, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.62px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .qr-code {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 173px;
+    left: 301px;
+    background: url(./assets/images/379562c28876f7b5ec61d5f3dd90bb251968b329.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 24;
+  }
+  .my-bilet-rect {
+    position: absolute;
+    width: 440px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    background: white
+      no-repeat center;
+    background-size: cover;
+    
+  }
+  .arrow-left {
+    position: absolute;
+    width: 33px;
+    height: 28px;
+    top: 21px;
+    left: 22px;
+    z-index: 7;
+    overflow: hidden;
+  }
+  .icon {
+    position: relative;
+    width: 22.25px;
+    height: 19.333px;
+    margin: 4.333px 0 0 5.375px;
+    background: url(./assets/images/e4761405-ea47-48a2-bd63-d1b69f2c0b1b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 8;
+  }
+  .my-tickets {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 213px;
+    height: 49px;
+    top: 22px;
+    left: 99px;
+    color: #000000;
+    font-family: Gabarito, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+    z-index: 6;
+  }
+  
+
+.yellow-rect {
+  /* yellow rect */
+
+position: absolute;
+width: 250px;
+height: 2px;
+left: -90px;
+top: 30px;
+
+background: #FFD700;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+

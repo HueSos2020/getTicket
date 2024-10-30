@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введите номер автобуса</title>
+</head>
+<body>
+    <h1>Введите номер автобуса</h1>
+    <form id="busForm">
+        <label for="busNumber">Номер автобуса:</label>
+        <input type="text" id="busNumber" required>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <script>
+        // Обработчик формы
+        document.getElementById('busForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Отменяем стандартное поведение формы
+            const busNumber = document.getElementById('busNumber').value;
+            // Сохраняем номер автобуса в localStorage
+            localStorage.setItem('busNumber', busNumber);
+            // Перенаправляем на основную страницу
+            window.location.href = 'index.html'; // Замените на имя вашего основного файла
+        });
+    </script>
+</body>
+</html>
