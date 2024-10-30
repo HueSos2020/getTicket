@@ -32,9 +32,10 @@
   .up-rect {
     position: relative;
     width: 441px;
-    height: 96px;
+    height: 80px;
     margin: 61px 0 0 -1px;
-    background: #fdffff;
+    background: #f9f9f9;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
     overflow: visible auto;
   }
@@ -91,7 +92,7 @@
     position: relative;
     width: 110px;
     height: 31px;
-    margin: 28px 0 0 179px;
+    margin: 28px 0 0 160px;
     cursor: pointer;
     background: #ffffff;
     border: none;
@@ -105,7 +106,7 @@
     position: absolute;
     height: 17px;
     top: 7px;
-    left: 27px;
+    left: 28px;
     color: #808080;
     font-family: Gabarito, var(--default-font-family);
     font-size: 14px;
@@ -369,8 +370,8 @@
     position: absolute;
     width: 18px;
     height: 20px;
-    top: 173px;
-    left: 301px;
+    top: 171px;
+    left: 287px;
     background: url(./assets/images/379562c28876f7b5ec61d5f3dd90bb251968b329.png)
       no-repeat center;
     background-size: cover;
@@ -382,11 +383,15 @@
     height: 71px;
     top: 0;
     left: 0;
-    background: white
+    background: rgb(255, 255, 255)
       no-repeat center;
     background-size: cover;
     
   }
+
+
+  
+
   .arrow-left {
     position: absolute;
     width: 33px;
@@ -429,10 +434,10 @@
   /* yellow rect */
 
 position: absolute;
-width: 250px;
+width: 240px;
 height: 2px;
 left: -90px;
-top: 30px;
+top: 14px;
 
 background: #FFD700;
 transform: matrix(1, 0, 0, -1, 0, 0);
