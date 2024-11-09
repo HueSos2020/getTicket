@@ -245,6 +245,9 @@
     background-size: cover;
     z-index: 19;
   }
+
+
+
   .span-date {
     display: flex;
     align-items: flex-start;
@@ -370,8 +373,8 @@
     position: absolute;
     width: 18px;
     height: 20px;
-    top: 171px;
-    left: 287px;
+    top: 167px;
+    left: 283px;
     background: url(./assets/images/379562c28876f7b5ec61d5f3dd90bb251968b329.png)
       no-repeat center;
     background-size: cover;
